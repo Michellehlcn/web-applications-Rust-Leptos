@@ -2088,6 +2088,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "tailwind"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5211e71d69bfca1f5c2e1eba962bd2caae2992be8969228940f0a06778484276"
+
+[[package]]
 name = "thiserror"
 version = "1.0.63"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2462,6 +2468,7 @@ dependencies = [
  "leptos_actix",
  "leptos_meta",
  "leptos_router",
+ "tailwind",
  "wasm-bindgen",
 ]
 

@@ -30,4 +30,16 @@ Potential downsides
 cargo install cargo-leptos
 rustup target add wasm32-unknown-unknown
 cargo leptos new --git leptos-rs/start
+cargo leptos watch
 ```
+## SSR Features
+
+- Enabled by the bin crate
+- Dependencies don't need to compile to WASM 
+- Not part of the binary sent to the user's browser
+- Backend logic will have the access to dependencies
+
+## Hydrate Feature 
+
+- Enabled by the lib crate
+- Dependencies don't need to compile to WASM and will be sent to the user's browser
